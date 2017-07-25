@@ -6,6 +6,13 @@ namespace TEKsystems.CodingExercise.Console.Domain
 {
     /// <summary>Represent a cart.</summary>
     /// <seealso cref="TEKsystems.CodingExercise.Console.Domain.BaseDomain" />
-    public class Cart : BaseCart
-	{}
+    public class BaseCart : BaseDomain
+	{
+		public BaseCart()
+		{
+			this.Products = new List<BaseProduct>();
+		}
+
+		public List<BaseProduct> Products { get; private set; }
+	}
 }

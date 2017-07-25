@@ -56,18 +56,18 @@
       <FileName>Domain\Product\Perfume.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="TEKsystems.CodingExercise.Console.Utility.Taxes">
-    <Position X="0.5" Y="0.5" Width="4" />
-    <TypeIdentifier>
-      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAIAAIAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Utility\Taxes.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="TEKsystems.CodingExercise.Console.Domain.BaseDomain">
     <Position X="6.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Domain\BaseDomain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TEKsystems.CodingExercise.Console.Utility.Taxes">
+    <Position X="0.5" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAIAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utility\Taxes.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

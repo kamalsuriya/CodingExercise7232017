@@ -2,8 +2,8 @@
 {
     /// <summary>Food product.</summary>
     /// <seealso cref="TEKsystems.CodingExercise.Console.Domain.Product.BaseProduct" />
-    public class Food : BaseProduct
+    public class Food : BaseFood
     {
-        public override bool IsTaxable => false;
+        
     }
 }

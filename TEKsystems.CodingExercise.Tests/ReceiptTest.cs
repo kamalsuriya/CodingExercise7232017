@@ -5,6 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TEKsystems.CodingExercise.Console.Domain;
 using TEKsystems.CodingExercise.Console.Domain.Product;
 using TEKsystems.CodingExercise.Console.Utility;
+using System.Text.RegularExpressions;
 
 namespace TEKsystems.CodingExercise.Tests
 {
@@ -22,11 +23,12 @@ namespace TEKsystems.CodingExercise.Tests
             cart.Products.Add( book );
             cart.Products.Add( musicCd );
             cart.Products.Add( chocolateBar );
-
+            
             var receipt = Receipt.Instance.Create( cart );
+            string receiptNormalized = Regex.Replace(receipt, @"\s", "");
 
-            Assert.AreEqual("S.No.  Product Name   Count  Price  Sales Tax  \n-----  ------------   -----  -----  ---------\n1      book           1      12.49  0\n2      music CD       1      14.99  1.5\n3      chocolate bar  1      0.85   0\nTotal Sales Taxes: 1.50\nTotal: 29.83",
-                receipt);
+            Assert.AreEqual("S.No.ProductNameCountPriceSalesTax------------------------------------1book112.4902musicCD114.991.53chocolatebar10.850-------------------------------------------------------------------TotalSalesTaxes:1.50Total:29.83",
+                receiptNormalized);
         }
         
         [TestMethod]
@@ -40,9 +42,10 @@ namespace TEKsystems.CodingExercise.Tests
             cart.Products.Add( perfume );
 
             var receipt = Receipt.Instance.Create( cart );
+            string receiptNormalized = Regex.Replace(receipt, @"\s", "");
 
-            Assert.AreEqual("S.No.  Product Name                 Count  Price  Sales Tax  \n-----  ------------                 -----  -----  ---------  \n1      Imported  chocolates         1      10.0   0.5\n2      Imported  bottle of perfume  1      47.5   7.15\nTotal Sales Taxes: 7.65\nTotal: 65.15",
-                receipt );
+            Assert.AreEqual("S.No.ProductNameCountPriceSalesTax------------------------------------1Importedchocolates110.00.52Importedbottleofperfume147.57.15-------------------------------------------------------------------TotalSalesTaxes:7.65Total:65.15",
+                receiptNormalized);
         }
         
         [TestMethod]
@@ -60,9 +63,10 @@ namespace TEKsystems.CodingExercise.Tests
             cart.Products.Add( chocolates );
 
             var receipt = Receipt.Instance.Create( cart );
+            string receiptNormalized = Regex.Replace(receipt, @"\s", "");
 
-            Assert.AreEqual("S.No.  Product Name                 Count  Price  Sales Tax  \n-----  ------------                 -----  -----  ---------  \n1      Imported  bottle of perfume  1      27.99  4.2\n2      bottle of perfume            1      18.99  1.9\n3      packet of headache pills     1      9.75   0\n4      Imported  box of chocolates  1      11.25  0.6\nTotal Sales Taxes: 6.70\nTotal: 74.68", 
-                receipt );
+            Assert.AreEqual("S.No.ProductNameCountPriceSalesTax------------------------------------1Importedbottleofperfume127.994.22bottleofperfume118.991.93packetofheadachepills19.7504Importedboxofchocolates111.250.6-------------------------------------------------------------------TotalSalesTaxes:6.70Total:74.68",
+                receiptNormalized);
         }
     }
 }

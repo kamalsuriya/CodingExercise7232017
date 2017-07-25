@@ -43,7 +43,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Domain\BaseDomain.cs" />
+    <Compile Include="Domain\BaseCart.cs" />
     <Compile Include="Domain\Cart.cs" />
+    <Compile Include="Domain\Product\BasePerfume.cs" />
+    <Compile Include="Domain\Product\BaseMusic.cs" />
+    <Compile Include="Domain\Product\BaseMedical.cs" />
+    <Compile Include="Domain\Product\BaseFood.cs" />
+    <Compile Include="Domain\Product\BaseBook.cs" />
     <Compile Include="Domain\Product\BaseProduct.cs" />
     <Compile Include="Domain\Product\Book.cs" />
     <Compile Include="Domain\Product\Food.cs" />

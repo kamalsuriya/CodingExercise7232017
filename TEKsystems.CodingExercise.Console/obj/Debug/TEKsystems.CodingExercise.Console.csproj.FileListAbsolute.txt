@@ -1,0 +1,12 @@
+C:\CE\dotnet-coding-exercise-4bfa05e09d8243aabe8222c36a506e78\TEKsystems.CodingExercise.Console\bin\Debug\TEKsystems.CodingExercise.Console.exe.config
+C:\CE\dotnet-coding-exercise-4bfa05e09d8243aabe8222c36a506e78\TEKsystems.CodingExercise.Console\bin\Debug\TEKsystems.CodingExercise.Console.exe
+C:\CE\dotnet-coding-exercise-4bfa05e09d8243aabe8222c36a506e78\TEKsystems.CodingExercise.Console\bin\Debug\TEKsystems.CodingExercise.Console.pdb
+C:\CE\dotnet-coding-exercise-4bfa05e09d8243aabe8222c36a506e78\TEKsystems.CodingExercise.Console\obj\Debug\TEKsystems.CodingExercise.Console.csprojResolveAssemblyReference.cache
+C:\CE\dotnet-coding-exercise-4bfa05e09d8243aabe8222c36a506e78\TEKsystems.CodingExercise.Console\obj\Debug\TEKsystems.CodingExercise.Console.exe
+C:\CE\dotnet-coding-exercise-4bfa05e09d8243aabe8222c36a506e78\TEKsystems.CodingExercise.Console\obj\Debug\TEKsystems.CodingExercise.Console.pdb
+C:\CE\TEKsystems.CodingExercise.Console\bin\Debug\TEKsystems.CodingExercise.Console.exe.config
+C:\CE\TEKsystems.CodingExercise.Console\bin\Debug\TEKsystems.CodingExercise.Console.exe
+C:\CE\TEKsystems.CodingExercise.Console\bin\Debug\TEKsystems.CodingExercise.Console.pdb
+C:\CE\TEKsystems.CodingExercise.Console\obj\Debug\TEKsystems.CodingExercise.Console.csprojResolveAssemblyReference.cache
+C:\CE\TEKsystems.CodingExercise.Console\obj\Debug\TEKsystems.CodingExercise.Console.exe
+C:\CE\TEKsystems.CodingExercise.Console\obj\Debug\TEKsystems.CodingExercise.Console.pdb

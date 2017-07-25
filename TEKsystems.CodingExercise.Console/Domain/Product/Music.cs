@@ -2,8 +2,8 @@
 {
     /// <summary>Music product.</summary>
     /// <seealso cref="TEKsystems.CodingExercise.Console.Domain.Product.BaseProduct" />
-    public class Music : BaseProduct
+    public class Music : BaseMusic
     {
-        public override decimal TaxRate => TaxPercentage.GetTaxPercentage("SalesTax");
+        
     }
 }
